@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(main/IMG_0922.JPG);
+    background-image: url('main/IMG_0922.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
