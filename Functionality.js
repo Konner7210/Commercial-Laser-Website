@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const homeButton = document.getElementById('homeButton');
+    const home = document.getElementById('home');
 
-    homeButton.addEventListener('click', (e) => {
+    home.addEventListener('click', (e) => {
         e.preventDefault(); // Prevent default anchor behavior
         // Add your desired functionality here
         document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
