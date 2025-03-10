@@ -100,12 +100,11 @@ form button:hover {
 }
 
 footer {
-    background-color: #1f1f1f;
-    padding: 1rem;
-    text-align: center;
-}
-footer {
-    background-color: #333;
+    background-color: transparent;
+    background-image: url('IMG_0922.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     text-align: center;
     padding: 1em 0;
