@@ -2,3 +2,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault();
     alert('Thank you for your message!');
 });
+document.querySelectorAll('.feature-item').forEach(item => {
+  item.addEventListener('click', () => {
+    window.location.href = 'your_target_url'; // Replace with your target URL
+  });
+});
