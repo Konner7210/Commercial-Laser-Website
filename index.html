@@ -75,6 +75,25 @@
     </div>
 </section>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Select all elements with the class 'feature-item'
+        var featureItems = document.querySelectorAll('.feature-item');
+        
+        // Add a click event listener to each element
+        featureItems.forEach(function(item) {
+            item.addEventListener('click', function() {
+                // Hide the pop-up (use your own logic to hide the pop-up)
+                // For example, if the pop-up has an ID of 'popup', you can hide it like this:
+                var popup = document.getElementById('popup');
+                if (popup) {
+                    popup.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Select all elements with the class 'feature-item'
